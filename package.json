@@ -1,0 +1,34 @@
+{
+  "name": "stable-sha1",
+  "version": "0.0.0",
+  "description": "Get a consistent sha1 hash for a JSON object in both browser and node",
+  "main": "index.js",
+  "browser": "browser.js",
+  "keywords": [
+    "json",
+    "stringify",
+    "deterministic",
+    "hash",
+    "sort",
+    "stable",
+    "sha",
+    "sha1"
+  ],
+  "dependencies": {
+    "rusha": "^0.7.8",
+    "stable-stringify": "^1.0.0"
+  },
+  "devDependencies": {
+    "run-browser": "^2.0.0"
+  },
+  "scripts": {
+    "test": "node test",
+    "browser": "run-browser test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/stable-sha1.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
