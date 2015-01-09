@@ -1,6 +1,6 @@
 {
   "name": "stable-sha1",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get a consistent sha1 hash for a JSON object in both browser and node",
   "main": "index.js",
   "browser": "browser.js",
