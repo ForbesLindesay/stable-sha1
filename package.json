@@ -15,7 +15,7 @@
     "sha1"
   ],
   "dependencies": {
-    "rusha": "^0.7.8",
+    "rusha": "^0.8.1",
     "stable-stringify": "^1.0.0"
   },
   "devDependencies": {
