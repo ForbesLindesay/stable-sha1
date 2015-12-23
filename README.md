@@ -5,7 +5,7 @@ Get a consistent sha1 hash for a JSON object in both browser and node
 Inspired by shasum, but unlike [shasum](https://github.com/dominictarr/shasum) it is only 3.6KB once minified and gzipped.  It does this by only supporting shasums for objects, not for buffers.  It also achieves further savings by assuming a browser with support for `JSON` and using the relatively lightweight [rusha](https://github.com/srijs/rusha) instead of the very large [crypto-browserify](https://github.com/dominictarr/crypto-browserify).
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/stable-sha1/master.svg)](https://travis-ci.org/ForbesLindesay/stable-sha1)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/stable-sha1.svg)](https://gemnasium.com/ForbesLindesay/stable-sha1)
+[![Dependency Status](https://img.shields.io/david/ForbesLindesay/stable-sha1.svg)](https://david-dm.org/ForbesLindesay/stable-sha1)
 [![NPM version](https://img.shields.io/npm/v/stable-sha1.svg)](https://www.npmjs.org/package/stable-sha1)
 
 ## Installation
