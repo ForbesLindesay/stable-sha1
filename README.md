@@ -1,5 +1,7 @@
 # stable-sha1
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/stable-sha1.svg)](https://greenkeeper.io/)
+
 Get a consistent sha1 hash for a JSON object in both browser and node
 
 Inspired by shasum, but unlike [shasum](https://github.com/dominictarr/shasum) it is only 3.6KB once minified and gzipped.  It does this by only supporting shasums for objects, not for buffers.  It also achieves further savings by assuming a browser with support for `JSON` and using the relatively lightweight [rusha](https://github.com/srijs/rusha) instead of the very large [crypto-browserify](https://github.com/dominictarr/crypto-browserify).
